@@ -1,0 +1,18 @@
+LSTM ZIP - QUICK START (VS Code / Windows)
+
+1. Extract this ZIP.
+2. Keep your existing project files. Back up the current train_lstm.py, then copy this ZIP's train_lstm.py into:
+   C:\Users\tulsi\AIML\tcs-stock-prediction
+3. Copy app_lstm.py, requirements-lstm.txt, README_LSTM.md into that same project root.
+4. In VS Code terminal with (.venv) active, run:
+   python -m pip install -r requirements-lstm.txt
+5. Train TCS first:
+   python train_lstm.py --ticker TCS.NS
+6. Try a US stock:
+   python train_lstm.py --ticker AAPL
+7. Optional: train all six:
+   python train_lstm.py --all
+8. Start the dashboard:
+   python -m streamlit run app_lstm.py
+
+Training may take several minutes. Check LSTM MAE against Baseline MAE; lower MAE is better. If data download fails, check internet and ticker availability.
