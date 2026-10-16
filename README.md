@@ -22,7 +22,7 @@ An educational stock market analytics and price prediction project using Python,
 - **Dashboard:** Streamlit
 - **Visualization:** Plotly, Matplotlib
 
-## ## 📸 Project Screenshots
+## 📸 Project Screenshots
 
 ### 1. Historical Stock Price Chart
 Displays historical stock price movements over time.
